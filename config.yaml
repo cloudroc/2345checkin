@@ -1,0 +1,10 @@
+---
+name: cloudroc
+version: 1
+accesskey: xxxxxxx
+cron:
+    - description: 2345_auto_checkin
+      url: 2345checkin
+      schedule: every day of month 07:05
+      timezone: Beijing
+...
